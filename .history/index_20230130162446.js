@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
-const generateMD = require("./generateMD")
+const generateMD = require("/g")
 
 
 
@@ -26,7 +26,7 @@ const generateMD = require("./generateMD")
 // inquirer.prompt() array of objects. 
 const questions = [
     {
-        name: "title",
+        name: "Title",
         message: "Title of project",
         type: "input",
     },
@@ -89,7 +89,7 @@ const questions = [
 
 inquirer.prompt(questions)
 .then(function (answer) {
-    fs.writeFileSync("README.md", generateMD(answer))
-    console.log(answer)
+    fs.writeFileSync("/README.md", generateMarkdown(answer))
+    // console.log(answer)
 })
 

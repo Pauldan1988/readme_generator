@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
-const generateMD = require("./generateMD")
 
 
 
@@ -25,11 +24,8 @@ const generateMD = require("./generateMD")
 // TODO: Create an array of questions for user input 
 // inquirer.prompt() array of objects. 
 const questions = [
-    {
-        name: "title",
-        message: "Title of project",
-        type: "input",
-    },
+    
+    
     
     {
         name: "userName",
@@ -89,7 +85,7 @@ const questions = [
 
 inquirer.prompt(questions)
 .then(function (answer) {
-    fs.writeFileSync("README.md", generateMD(answer))
-    console.log(answer)
+    fs.writeFileSync("/README.md", generateMarkdown(answer))
+    // console.log(answer)
 })
-
+// TODO: Create a function to write README file

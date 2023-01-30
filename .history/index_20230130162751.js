@@ -26,7 +26,7 @@ const generateMD = require("./generateMD")
 // inquirer.prompt() array of objects. 
 const questions = [
     {
-        name: "title",
+        name: "Title",
         message: "Title of project",
         type: "input",
     },
@@ -90,6 +90,6 @@ const questions = [
 inquirer.prompt(questions)
 .then(function (answer) {
     fs.writeFileSync("README.md", generateMD(answer))
-    console.log(answer)
+    // console.log(answer)
 })
 

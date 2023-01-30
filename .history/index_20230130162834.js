@@ -26,7 +26,7 @@ const generateMD = require("./generateMD")
 // inquirer.prompt() array of objects. 
 const questions = [
     {
-        name: "title",
+        name: "Title",
         message: "Title of project",
         type: "input",
     },
