@@ -4,7 +4,7 @@ const fs = require("fs")
 const generateMD = require("./generateMD")
 
 
-
+// Take data from answers. Put them into the template literal.
 
 
 //Table of contents
@@ -83,7 +83,7 @@ const questions = [
         name: "license",
         message: "Pick your license",
         type: "list",
-        choices: ["MIT", "Apache", "Mozilla", "GPL"],
+        choices: ["MIT", "Apache", "Mozilla", "GPL", "NONE"],
     },
 ];
 
