@@ -7,6 +7,10 @@ function renderLicenseBadge(license) {
       return "[![License](https://img.shields.io/badge/Mozilla-2.0-red.svg)](https://opensource.org/licenses/MPL-2.0)"
     case "Apache":
       return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    case "MIT":
+      return "[![License](https://img.shields.io/badge/MIT-License-orange.svg)](https://opensource.org/licenses/MIT)"
+    case "GNU AGPLv3":
+      return "[![License](https://img.shields.io/badge/GNU-AGPLv3-yellow.svg)](https://spdx.org/licenses/AGPL-3.0-or-later.html)"
     default:
       return "[![License: TYPE LICENSE NAME HERE](PROVIDE BADGE IMAGE SRC LINK HERE)](PROVIDE BADGE LINK HERE)"
   }

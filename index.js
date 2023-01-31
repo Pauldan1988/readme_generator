@@ -16,7 +16,7 @@ const generateMD = require("./generateMD")
 // https://www.npmjs.com/package/inquirer/v/8.2.4
 // https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-
+// https://badgen.net/npm/license/lodash
 
 
 
@@ -83,7 +83,7 @@ const questions = [
         name: "license",
         message: "Pick your license",
         type: "list",
-        choices: ["MIT", "Apache", "Mozilla", "GPL", "NONE"],
+        choices: ["MIT", "Apache", "Mozilla", "GNU AGPLv3", "NONE"],
     },
 ];
 
