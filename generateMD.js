@@ -12,9 +12,9 @@ function renderLicenseBadge(license) {
     case "GNU AGPLv3":
       return "[![License](https://img.shields.io/badge/GNU-AGPLv3-yellow.svg)](https://spdx.org/licenses/AGPL-3.0-or-later.html)"
     default:
-      return "[![License: TYPE LICENSE NAME HERE](PROVIDE BADGE IMAGE SRC LINK HERE)](PROVIDE BADGE LINK HERE)"
+      return "None Provided"
   }
-
+  
 }
 
 // TODO: Create a function that returns the license link
@@ -25,23 +25,18 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
+  
   return `# ${data.title}
 
-  ${data.projDesc}
-  ${data.gettingStarted}
-  ${data.usage}
-  ${data.contributions}
-  ${data.gitHubUser}
-  ${data.emailUser}
-  ${data.roadmap}  
 
 ## License\n
 ${renderLicenseBadge(data.license)} 
+
+<!-- TABLE OF CONTENTS -->
 
 # Table of Contents
 
@@ -53,6 +48,35 @@ ${renderLicenseBadge(data.license)}
 - [GitHub](#GitHub)\n
 - [Email](#E-Mail)\n
 
+
+## Description
+___
+${data.projDesc}
+
+## How to Start
+___
+${data.gettingStarted}
+
+## Usage
+___
+${data.usage}
+
+## Roadmap
+___
+${data.roadmap}
+
+## Contributions
+___
+${data.contributions}
+
+## Questions
+___
+Contact me!
+## Git Hub
+${data.gitHubUser}
+<!-- E-MAIL -->
+## E-Mail
+${data.emailUser}
 `;
 }
 
