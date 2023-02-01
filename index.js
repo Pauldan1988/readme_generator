@@ -16,7 +16,7 @@ const generateMD = require("./generateMD")
 // https://www.npmjs.com/package/inquirer/v/8.2.4
 // https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-// https://badgen.net/npm/license/lodash
+
 
 
 
@@ -30,13 +30,7 @@ const questions = [
         message: "Title of project",
         type: "input",
     },
-    
-    {
-        name: "userName",
-        message: "What is your full name?",
-        type: "input",
-    },
-    
+      
     {
         name: "projDesc",
         message: "Type out a description of your project",
@@ -56,6 +50,12 @@ const questions = [
     },
 
     {
+        name: "roadmap",
+        message: "What is the road Map for your project?",
+        type: "input",
+    },
+
+    {
         name: "contributions",
         message: "What are the contribution guidelines",
         type: "input",
@@ -70,12 +70,6 @@ const questions = [
     {
         name: "emailUser",
         message: "What is your Email Address?",
-        type: "input",
-    },
-
-    {
-        name: "roadmap",
-        message: "What is the road Map for your project?",
         type: "input",
     },
 
