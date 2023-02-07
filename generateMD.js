@@ -62,6 +62,14 @@ ___
 ${data.usage}
 
 ## Roadmap
+
+## Installation
+___
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/main)
+3. Commit your Changes (git commit -m 'Add some main)
+4. Push to the Branch (git push origin feature/main)
+5. Open a Pull Request
 ___
 ${data.roadmap}
 
@@ -69,14 +77,17 @@ ${data.roadmap}
 ___
 ${data.contributions}
 
-## Questions
-___
-Contact me!
-## Git Hub
-${data.gitHubUser}
-<!-- E-MAIL -->
-## E-Mail
-${data.emailUser}
+## References
+
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- https://www.npmjs.com/package/inquirer/v/8.2.4
+- https://shields.io/
+
+# Questions
+
+## Contact-me!
+## https://www.github.com/${data.gitHubUser}
+## ${data.emailUser}
 `;
 }
 
