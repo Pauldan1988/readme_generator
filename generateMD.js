@@ -66,9 +66,9 @@ ${data.usage}
 ## Installation
 ___
 1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/main)
-3. Commit your Changes (git commit -m 'Add some main)
-4. Push to the Branch (git push origin feature/main)
+2. Create your Feature Branch (git checkout -b branchnamehere)
+3. Commit your Changes (git commit -m 'Commit message here')
+4. Push to the Branch (git push origin branchnamehere)
 5. Open a Pull Request
 ___
 ${data.roadmap}

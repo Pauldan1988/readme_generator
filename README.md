@@ -1,9 +1,9 @@
-# t
+# README generator
 
 
 ## License
 
-[![License](https://img.shields.io/badge/Mozilla-2.0-red.svg)](https://opensource.org/licenses/MPL-2.0) 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
 <!-- TABLE OF CONTENTS -->
 
@@ -27,31 +27,31 @@
 
 ## Description
 ___
-t
+Generate a readme for your resume or profile
 
 ## How to Start
 ___
-t
+Fork the code from my repository then type "node index.js" in your terminal. (installation instructions in the readme)
 
 ## Usage
 ___
-t
+For potential future employers to see your ability to generate well put together READMEs
 
 ## Roadmap
 
 ## Installation
 ___
 1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/main)
-3. Commit your Changes (git commit -m 'Add some main)
-4. Push to the Branch (git push origin feature/main)
+2. Create your Feature Branch (git checkout -b branchnamehere)
+3. Commit your Changes (git commit -m 'Commit message here')
+4. Push to the Branch (git push origin branchnamehere)
 5. Open a Pull Request
 ___
-tt
+Coming soon
 
 ## Contributions
 ___
-t
+Please credit mew
 
 ## References
 
@@ -62,5 +62,5 @@ t
 # Questions
 
 ## Contact-me!
-## https://www.github.com/Pauldan1988
-## pdangelo1988@gmail.com
+## https://www.github.com/Pauldan1988@github.com
+## Pdangelo1988@gmail.com
