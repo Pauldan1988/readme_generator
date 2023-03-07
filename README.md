@@ -11,6 +11,8 @@
 
 - [Description](#Description)
 
+- [Demonstration](#Demonstration)
+
 - [How to Start](#How-to-Start)
 
 - [Usage](#Usage)
@@ -28,6 +30,11 @@
 ## Description
 ___
 Generate a readme for your resume or profile
+
+## Demonstration
+
+___
+https://watch.screencastify.com/v/ORDoXdDpgcagiAGgVBVg
 
 ## How to Start
 ___
